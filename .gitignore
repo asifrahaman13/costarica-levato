@@ -1,2 +1,82 @@
 .env
 .venv
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution / packaging
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+
+# Pylint
+pylint-report.txt
+pylint-global.txt
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Local configuration
+*.local
+*.env
+*.envrc
+
+# SQL database files
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Sphinx documentation
+docs/_build/
+
+# Deployment
+*.wsgi
+*.pid
+
+# Python versions
+.python-version
+
+# Other
+*.swp
+*.swo
+*.swn
