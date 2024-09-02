@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Create a .env file from the .env.exmaple
 
 ```bash
-cp .env.example .evn
+cp .env.example .env
 ```
 
 Next enter the credential for the postgres database.
